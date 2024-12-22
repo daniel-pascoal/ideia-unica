@@ -8,7 +8,9 @@ async function tempo2(request, response) {
   const prompt = "Explique para que serve uma API";
 
   const result = await model.generateContent(prompt);
-  console.log(result.response.text());
+  <div>
+    <h1>result.response.text()</h1>
+  </div>;
 }
 
 export default tempo2;
